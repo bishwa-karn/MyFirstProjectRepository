@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:compat="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="General_News"
+        android:id="@+id/general_menu"
+        android:icon="@drawable/news_logo"
+        compat:showAsAction="always"
+        android:onClick="general_news"/>
+
+</menu>

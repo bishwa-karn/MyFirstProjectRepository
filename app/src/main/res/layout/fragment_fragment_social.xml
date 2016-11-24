@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bishwa.karn.karnmedia.FragmentSocial"
+    android:orientation="vertical"
+    android:background="#b79696">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+           android:src="@drawable/news_logo"
+           android:background="#abc"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="News Topic"
+           android:textSize="25dp"
+           android:textStyle="bold"
+           android:textColor="#fae107"
+           android:padding="10dp"
+           android:background="#59000000"
+           android:gravity="right"
+           android:layout_marginTop="-50dp"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="New inside news portal....in your home town....if you like this plage then like subscribe and suggest if you have any suggestion....thank you"
+           android:textSize="20dp"
+           android:textColor="#ff3609"
+           android:padding="20dp"/>
+
+
+
+
+   </LinearLayout>
+</FrameLayout>
